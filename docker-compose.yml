@@ -13,9 +13,9 @@ services:
     hostname: asm_unicom
     environment:
       - enable_unicom=true #签到开关 false / true
-      - user=123456 # 输入用户手机号
-      - password=123456 #输入用户密码
-      - appid=FFFFFFFF #输入手机端APPID
+      - user=17538700290 # 输入用户手机号
+      - password=248568 #输入用户密码
+      - appid=1602478f56565b0c47dc53c138cb715d8de1ed3f7069d359c9b663dea48770d84ca3815ed5ad0ce70878880dc32edd05aa8835d76631ef2157c6ea7f55da6b38b702fe81e7c4e594700c6695f64c2580 #输入手机端APPID
   asm_bili:
     container_name: asm_bili
     build:
